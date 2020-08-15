@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8603A9D24E8AA1800A98834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8603A9C24E8AA1800A98834 /* AppDelegate.swift */; };
+		A8603A9F24E8AA1800A98834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8603A9E24E8AA1800A98834 /* SceneDelegate.swift */; };
+		A8603AA124E8AA1800A98834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8603AA024E8AA1800A98834 /* ContentView.swift */; };
+		A8603AA324E8AA1A00A98834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA224E8AA1A00A98834 /* Assets.xcassets */; };
+		A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */; };
+		A8603AA924E8AA1A00A98834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA724E8AA1A00A98834 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-skeleton-Matea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8603A9C24E8AA1800A98834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8603A9E24E8AA1800A98834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8603AA024E8AA1800A98834 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8603AA224E8AA1A00A98834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8603AA824E8AA1A00A98834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8603AAA24E8AA1A00A98834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8603A9624E8AA1800A98834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8603A9024E8AA1800A98834 = {
+			isa = PBXGroup;
+			children = (
+				A8603A9B24E8AA1800A98834 /* iOS-skeleton-Matea */,
+				A8603A9A24E8AA1800A98834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8603A9A24E8AA1800A98834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8603A9B24E8AA1800A98834 /* iOS-skeleton-Matea */ = {
+			isa = PBXGroup;
+			children = (
+				A8603A9C24E8AA1800A98834 /* AppDelegate.swift */,
+				A8603A9E24E8AA1800A98834 /* SceneDelegate.swift */,
+				A8603AA024E8AA1800A98834 /* ContentView.swift */,
+				A8603AA224E8AA1A00A98834 /* Assets.xcassets */,
+				A8603AA724E8AA1A00A98834 /* LaunchScreen.storyboard */,
+				A8603AAA24E8AA1A00A98834 /* Info.plist */,
+				A8603AA424E8AA1A00A98834 /* Preview Content */,
+			);
+			path = "iOS-skeleton-Matea";
+			sourceTree = "<group>";
+		};
+		A8603AA424E8AA1A00A98834 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8603A9824E8AA1800A98834 /* iOS-skeleton-Matea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8603AAD24E8AA1A00A98834 /* Build configuration list for PBXNativeTarget "iOS-skeleton-Matea" */;
+			buildPhases = (
+				A8603A9524E8AA1800A98834 /* Sources */,
+				A8603A9624E8AA1800A98834 /* Frameworks */,
+				A8603A9724E8AA1800A98834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-skeleton-Matea";
+			productName = "iOS-skeleton-Matea";
+			productReference = A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8603A9124E8AA1800A98834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Matea Andrei";
+				TargetAttributes = {
+					A8603A9824E8AA1800A98834 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A8603A9424E8AA1800A98834 /* Build configuration list for PBXProject "iOS-skeleton-Matea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8603A9024E8AA1800A98834;
+			productRefGroup = A8603A9A24E8AA1800A98834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8603A9824E8AA1800A98834 /* iOS-skeleton-Matea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8603A9724E8AA1800A98834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8603AA924E8AA1A00A98834 /* LaunchScreen.storyboard in Resources */,
+				A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */,
+				A8603AA324E8AA1A00A98834 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8603A9524E8AA1800A98834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8603A9D24E8AA1800A98834 /* AppDelegate.swift in Sources */,
+				A8603A9F24E8AA1800A98834 /* SceneDelegate.swift in Sources */,
+				A8603AA124E8AA1800A98834 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8603AA724E8AA1A00A98834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8603AA824E8AA1A00A98834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8603AAB24E8AA1A00A98834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8603AAC24E8AA1A00A98834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8603AAE24E8AA1A00A98834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-skeleton-Matea/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PP533FSL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-skeleton-Matea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.iOS-skeleton-Matea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8603AAF24E8AA1A00A98834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-skeleton-Matea/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PP533FSL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-skeleton-Matea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.iOS-skeleton-Matea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8603A9424E8AA1800A98834 /* Build configuration list for PBXProject "iOS-skeleton-Matea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8603AAB24E8AA1A00A98834 /* Debug */,
+				A8603AAC24E8AA1A00A98834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8603AAD24E8AA1A00A98834 /* Build configuration list for PBXNativeTarget "iOS-skeleton-Matea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8603AAE24E8AA1A00A98834 /* Debug */,
+				A8603AAF24E8AA1A00A98834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8603A9124E8AA1800A98834 /* Project object */;
+}
