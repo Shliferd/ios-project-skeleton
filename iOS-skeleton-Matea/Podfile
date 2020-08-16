@@ -1,0 +1,20 @@
+using_bundler = defined? Bundler
+unless using_bundler
+  puts "\nPlease re-run using:".red
+  puts "  bundle exec pod install\n\n"
+  exit(1)
+end
+
+source 'https://cdn.cocoapods.org/'
+platform :ios, '11.0'
+
+target 'iOS-skeleton-Matea' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOS-skeleton-Matea
+
+  # Use this for client-demo presentation
+  # It shows touch feedback while presenting
+  # pod 'ShowTime', :configurations => ['Debug']
+end
