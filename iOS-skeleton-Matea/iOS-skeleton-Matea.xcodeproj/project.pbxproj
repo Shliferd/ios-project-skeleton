@@ -19,6 +19,16 @@
 		A88279C424E9651900777EB8 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279C124E9651900777EB8 /* Storyboards.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A88279DE24E9886A00777EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88279DA24E9886900777EB8 /* Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A88279CF24E9886900777EB8;
+			remoteInfo = Core;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_skeleton_Matea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.debug.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.debug.xcconfig"; sourceTree = "<group>"; };
@@ -33,6 +43,7 @@
 		A88279BF24E9651900777EB8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A88279C024E9651900777EB8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		A88279C124E9651900777EB8 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		A88279DA24E9886900777EB8 /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Core.xcodeproj; path = Core/Core.xcodeproj; sourceTree = "<group>"; };
 		D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.release.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +129,7 @@
 				A8603A9A24E8AA1800A98834 /* Products */,
 				CDCD562F2AD40320C839FD59 /* Pods */,
 				3B0A1CD3CB9DA12A94BE521C /* Frameworks */,
+				A88279DA24E9886900777EB8 /* Core.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +223,14 @@
 			path = Generated;
 			sourceTree = "<group>";
 		};
+		A88279DB24E9886900777EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A88279DF24E9886A00777EB8 /* Core.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CDCD562F2AD40320C839FD59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,12 +289,28 @@
 			mainGroup = A8603A9024E8AA1800A98834;
 			productRefGroup = A8603A9A24E8AA1800A98834 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A88279DB24E9886900777EB8 /* Products */;
+					ProjectRef = A88279DA24E9886900777EB8 /* Core.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A8603A9824E8AA1800A98834 /* iOS-skeleton-Matea */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A88279DF24E9886A00777EB8 /* Core.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Core.framework;
+			remoteRef = A88279DE24E9886A00777EB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A8603A9724E8AA1800A98834 /* Resources */ = {
