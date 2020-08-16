@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8220E4324E995A6005B255D /* UserDefaults+PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E4224E995A6005B255D /* UserDefaults+PropertyWrappers.swift */; };
 		A88279D424E9886900777EB8 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = A88279D224E9886900777EB8 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88279E924E98BF500777EB8 /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279E824E98BF500777EB8 /* Lazy.swift */; };
+		A88279EB24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279EA24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8220E4224E995A6005B255D /* UserDefaults+PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PropertyWrappers.swift"; sourceTree = "<group>"; };
 		A88279CF24E9886900777EB8 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88279D224E9886900777EB8 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		A88279D324E9886900777EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88279E824E98BF500777EB8 /* Lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
+		A88279EA24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeychainItem+PropertyWrapper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,9 @@
 		A88279D124E9886900777EB8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A88279E424E98AA500777EB8 /* Data Access */,
 				A88279E024E98A2900777EB8 /* Logic */,
+				A88279E324E98A4000777EB8 /* Utilities */,
 				A88279D224E9886900777EB8 /* Core.h */,
 				A88279D324E9886900777EB8 /* Info.plist */,
 			);
@@ -58,7 +66,6 @@
 			children = (
 				A88279E124E98A3600777EB8 /* Services */,
 				A88279E224E98A3B00777EB8 /* Models */,
-				A88279E324E98A4000777EB8 /* Utilities */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -80,8 +87,42 @@
 		A88279E324E98A4000777EB8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A88279E724E98AEF00777EB8 /* Property wrappers */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A88279E424E98AA500777EB8 /* Data Access */ = {
+			isa = PBXGroup;
+			children = (
+				A88279E524E98AB600777EB8 /* Network */,
+				A88279E624E98ABD00777EB8 /* Persistence */,
+			);
+			path = "Data Access";
+			sourceTree = "<group>";
+		};
+		A88279E524E98AB600777EB8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A88279E624E98ABD00777EB8 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A88279E724E98AEF00777EB8 /* Property wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				A88279E824E98BF500777EB8 /* Lazy.swift */,
+				A88279EA24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift */,
+				A8220E4224E995A6005B255D /* UserDefaults+PropertyWrappers.swift */,
+			);
+			path = "Property wrappers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +168,7 @@
 				TargetAttributes = {
 					A88279CE24E9886900777EB8 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -163,6 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8220E4324E995A6005B255D /* UserDefaults+PropertyWrappers.swift in Sources */,
+				A88279E924E98BF500777EB8 /* Lazy.swift in Sources */,
+				A88279EB24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +337,7 @@
 		A88279D824E9886900777EB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W8PP533FSL;
@@ -308,6 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.Core";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,6 +363,7 @@
 		A88279D924E9886900777EB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W8PP533FSL;
