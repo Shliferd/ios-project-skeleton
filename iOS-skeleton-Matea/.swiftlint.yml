@@ -18,6 +18,7 @@ line_length:
     warning: 120
     error: 200
     ignores_function_declarations: true
+    ignores_comments: true
 
 weak_delegate: error
 large_tuple:

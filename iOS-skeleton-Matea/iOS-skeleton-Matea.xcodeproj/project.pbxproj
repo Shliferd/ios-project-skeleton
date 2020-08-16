@@ -87,6 +87,7 @@
 		A8024FA424E940A6006C2D74 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A88279BA24E95B9900777EB8 /* Logic */,
 				A8024FA524E941B9006C2D74 /* User Interface */,
 				A8024F9B24E8B444006C2D74 /* Main */,
 			);
@@ -96,6 +97,9 @@
 		A8024FA524E941B9006C2D74 /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
+				A88279B824E95B6D00777EB8 /* Components */,
+				A88279B724E95B3B00777EB8 /* Flows */,
+				A88279B924E95B7200777EB8 /* Utilities */,
 			);
 			path = "User Interface";
 			sourceTree = "<group>";
@@ -144,6 +148,58 @@
 				A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A88279B724E95B3B00777EB8 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		A88279B824E95B6D00777EB8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A88279B924E95B7200777EB8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A88279BA24E95B9900777EB8 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A88279BB24E95BA200777EB8 /* Extensions */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		A88279BB24E95BA200777EB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A88279BD24E95BB900777EB8 /* Foundation */,
+				A88279BC24E95BB200777EB8 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A88279BC24E95BB200777EB8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A88279BD24E95BB900777EB8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		CDCD562F2AD40320C839FD59 /* Pods */ = {
