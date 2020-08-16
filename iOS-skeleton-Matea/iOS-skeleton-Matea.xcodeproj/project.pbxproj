@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		84750283074BB97AA967499A /* Pods_iOS_skeleton_Matea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */; };
-		A8603A9D24E8AA1800A98834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8603A9C24E8AA1800A98834 /* AppDelegate.swift */; };
-		A8603A9F24E8AA1800A98834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8603A9E24E8AA1800A98834 /* SceneDelegate.swift */; };
-		A8603AA124E8AA1800A98834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8603AA024E8AA1800A98834 /* ContentView.swift */; };
-		A8603AA324E8AA1A00A98834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA224E8AA1A00A98834 /* Assets.xcassets */; };
+		A8024FA124E8B444006C2D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8024F9C24E8B444006C2D74 /* LaunchScreen.storyboard */; };
+		A8024FA224E8B444006C2D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8024F9E24E8B444006C2D74 /* AppDelegate.swift */; };
+		A8024FA824E941EB006C2D74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8024FA724E941EB006C2D74 /* Localizable.strings */; };
+		A8024FAD24E94225006C2D74 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8024FAC24E94225006C2D74 /* Colors.xcassets */; };
+		A82084DD24E94E6D001678B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8024FAA24E9421D006C2D74 /* Images.xcassets */; };
 		A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */; };
-		A8603AA924E8AA1A00A98834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA724E8AA1A00A98834 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_skeleton_Matea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.debug.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.debug.xcconfig"; sourceTree = "<group>"; };
+		A8024F9A24E8B444006C2D74 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8024F9D24E8B444006C2D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8024F9E24E8B444006C2D74 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8024FA724E941EB006C2D74 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A8024FAA24E9421D006C2D74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8024FAC24E94225006C2D74 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-skeleton-Matea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8603A9C24E8AA1800A98834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8603A9E24E8AA1800A98834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8603AA024E8AA1800A98834 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A8603AA224E8AA1A00A98834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A8603AA824E8AA1A00A98834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A8603AAA24E8AA1A00A98834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.release.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +50,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A8024F9724E8B444006C2D74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8024FA624E941CE006C2D74 /* Strings */,
+				A8024FAA24E9421D006C2D74 /* Images.xcassets */,
+				A8024FAC24E94225006C2D74 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8024F9924E8B444006C2D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8024F9A24E8B444006C2D74 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8024F9B24E8B444006C2D74 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A8024F9C24E8B444006C2D74 /* LaunchScreen.storyboard */,
+				A8024F9E24E8B444006C2D74 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A8024FA324E8B473006C2D74 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		A8024FA424E940A6006C2D74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8024FA524E941B9006C2D74 /* User Interface */,
+				A8024F9B24E8B444006C2D74 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8024FA524E941B9006C2D74 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		A8024FA624E941CE006C2D74 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A8024FA724E941EB006C2D74 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		A8603A9024E8AA1800A98834 = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +129,10 @@
 		A8603A9B24E8AA1800A98834 /* iOS-skeleton-Matea */ = {
 			isa = PBXGroup;
 			children = (
-				A8603A9C24E8AA1800A98834 /* AppDelegate.swift */,
-				A8603A9E24E8AA1800A98834 /* SceneDelegate.swift */,
-				A8603AA024E8AA1800A98834 /* ContentView.swift */,
-				A8603AA224E8AA1A00A98834 /* Assets.xcassets */,
-				A8603AA724E8AA1A00A98834 /* LaunchScreen.storyboard */,
-				A8603AAA24E8AA1A00A98834 /* Info.plist */,
+				A8024FA424E940A6006C2D74 /* Classes */,
+				A8024F9724E8B444006C2D74 /* Resources */,
+				A8024F9924E8B444006C2D74 /* Supporting Files */,
+				A8024FA324E8B473006C2D74 /* Generated */,
 				A8603AA424E8AA1A00A98834 /* Preview Content */,
 			);
 			path = "iOS-skeleton-Matea";
@@ -158,9 +214,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8603AA924E8AA1A00A98834 /* LaunchScreen.storyboard in Resources */,
+				A8024FA824E941EB006C2D74 /* Localizable.strings in Resources */,
+				A82084DD24E94E6D001678B7 /* Images.xcassets in Resources */,
+				A8024FAD24E94225006C2D74 /* Colors.xcassets in Resources */,
+				A8024FA124E8B444006C2D74 /* LaunchScreen.storyboard in Resources */,
 				A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */,
-				A8603AA324E8AA1A00A98834 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,19 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8603A9D24E8AA1800A98834 /* AppDelegate.swift in Sources */,
-				A8603A9F24E8AA1800A98834 /* SceneDelegate.swift in Sources */,
-				A8603AA124E8AA1800A98834 /* ContentView.swift in Sources */,
+				A8024FA224E8B444006C2D74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8603AA724E8AA1A00A98834 /* LaunchScreen.storyboard */ = {
+		A8024F9C24E8B444006C2D74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8603AA824E8AA1A00A98834 /* Base */,
+				A8024F9D24E8B444006C2D74 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -339,7 +395,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-skeleton-Matea/Preview Content\"";
 				DEVELOPMENT_TEAM = W8PP533FSL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "iOS-skeleton-Matea/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOS-skeleton-Matea/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.iOS-skeleton-Matea";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,7 +416,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-skeleton-Matea/Preview Content\"";
 				DEVELOPMENT_TEAM = W8PP533FSL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "iOS-skeleton-Matea/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOS-skeleton-Matea/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,7 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.iOS-skeleton-Matea";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
