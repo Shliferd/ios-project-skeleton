@@ -14,6 +14,9 @@ target 'iOS-skeleton-Matea' do
 
   # Pods for iOS-skeleton-Matea
 
+	pod 'SwiftGen'
+  	pod 'SwiftLint'	
+
   # Use this for client-demo presentation
   # It shows touch feedback while presenting
   # pod 'ShowTime', :configurations => ['Debug']

@@ -163,7 +163,9 @@
 			buildConfigurationList = A8603AAD24E8AA1A00A98834 /* Build configuration list for PBXNativeTarget "iOS-skeleton-Matea" */;
 			buildPhases = (
 				BA541FC3E435F9BCE6DAA149 /* [CP] Check Pods Manifest.lock */,
+				A82084DF24E952F2001678B7 /* SwiftGen */,
 				A8603A9524E8AA1800A98834 /* Sources */,
+				A82084E324E957A9001678B7 /* SwiftLint */,
 				A8603A9624E8AA1800A98834 /* Frameworks */,
 				A8603A9724E8AA1800A98834 /* Resources */,
 			);
@@ -225,6 +227,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A82084DF24E952F2001678B7 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\"\n";
+		};
+		A82084E324E957A9001678B7 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		BA541FC3E435F9BCE6DAA149 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
