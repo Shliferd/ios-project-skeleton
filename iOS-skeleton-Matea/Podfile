@@ -21,9 +21,14 @@ target 'iOS-skeleton-Matea' do
   		pod 'RxSwift'
   		pod 'RxCocoa'
   		pod 'RxOptional'
-    
-    	pod 'RestBird'
-    	pod 'Alamofire'
+
+	target 'Core' do
+		inherit! :search_paths
+		use_frameworks!
+    		
+		pod 'RestBird'    		
+		pod 'Alamofire'
+	end
 
   # Use this for client-demo presentation
   # It shows touch feedback while presenting

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58172A39BD777FE3BE3621C0 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B8D85FB14C9872BC57A3EE /* Pods_Core.framework */; };
 		84750283074BB97AA967499A /* Pods_iOS_skeleton_Matea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */; };
 		A8024FA124E8B444006C2D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8024F9C24E8B444006C2D74 /* LaunchScreen.storyboard */; };
 		A8024FA224E8B444006C2D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8024F9E24E8B444006C2D74 /* AppDelegate.swift */; };
@@ -14,6 +15,14 @@
 		A8024FAD24E94225006C2D74 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8024FAC24E94225006C2D74 /* Colors.xcassets */; };
 		A82084DD24E94E6D001678B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8024FAA24E9421D006C2D74 /* Images.xcassets */; };
 		A8220E4924E9A2E8005B255D /* UIApplication+appVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E4824E9A2E8005B255D /* UIApplication+appVersion.swift */; };
+		A8220E5724E9AA49005B255D /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = A8220E5524E9AA49005B255D /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8220E5A24E9AA49005B255D /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8220E5324E9AA49005B255D /* Core.framework */; };
+		A8220E5B24E9AA49005B255D /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8220E5324E9AA49005B255D /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8220E6E24E9AB20005B255D /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6524E9AA61005B255D /* Component.swift */; };
+		A8220E6F24E9AB25005B255D /* UserDefaults+PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6324E9AA61005B255D /* UserDefaults+PropertyWrappers.swift */; };
+		A8220E7024E9AB28005B255D /* KeychainItem+PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6224E9AA61005B255D /* KeychainItem+PropertyWrapper.swift */; };
+		A8220E7124E9AB2A005B255D /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6124E9AA61005B255D /* Lazy.swift */; };
+		A8220E7224E9AB83005B255D /* NetworkClient+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6624E9AA61005B255D /* NetworkClient+Rx.swift */; };
 		A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */; };
 		A88279C224E9651900777EB8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279BF24E9651900777EB8 /* Strings.swift */; };
 		A88279C324E9651900777EB8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279C024E9651900777EB8 /* Assets.swift */; };
@@ -21,17 +30,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A88279DE24E9886A00777EB8 /* PBXContainerItemProxy */ = {
+		A8220E5824E9AA49005B255D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A88279DA24E9886900777EB8 /* Core.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A88279CF24E9886900777EB8;
+			containerPortal = A8603A9124E8AA1800A98834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8220E5224E9AA49005B255D;
 			remoteInfo = Core;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A8220E5C24E9AA49005B255D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8220E5B24E9AA49005B255D /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		49E03F3412971FDC02FA170C /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 		6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_skeleton_Matea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D3AFC73FF6D3775232C4D /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.debug.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.debug.xcconfig"; sourceTree = "<group>"; };
 		A8024F9A24E8B444006C2D74 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8024F9D24E8B444006C2D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,21 +65,38 @@
 		A8024FAA24E9421D006C2D74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8024FAC24E94225006C2D74 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A8220E4824E9A2E8005B255D /* UIApplication+appVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+appVersion.swift"; sourceTree = "<group>"; };
+		A8220E5324E9AA49005B255D /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8220E5524E9AA49005B255D /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		A8220E5624E9AA49005B255D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8220E6124E9AA61005B255D /* Lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
+		A8220E6224E9AA61005B255D /* KeychainItem+PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeychainItem+PropertyWrapper.swift"; sourceTree = "<group>"; };
+		A8220E6324E9AA61005B255D /* UserDefaults+PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PropertyWrappers.swift"; sourceTree = "<group>"; };
+		A8220E6524E9AA61005B255D /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		A8220E6624E9AA61005B255D /* NetworkClient+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkClient+Rx.swift"; sourceTree = "<group>"; };
 		A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-skeleton-Matea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A88279BF24E9651900777EB8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A88279C024E9651900777EB8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		A88279C124E9651900777EB8 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		A88279DA24E9886900777EB8 /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Core.xcodeproj; path = Core/Core.xcodeproj; sourceTree = "<group>"; };
+		C1B8D85FB14C9872BC57A3EE /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.release.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A8220E5024E9AA49005B255D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58172A39BD777FE3BE3621C0 /* Pods_Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8603A9624E8AA1800A98834 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84750283074BB97AA967499A /* Pods_iOS_skeleton_Matea.framework in Frameworks */,
+				A8220E5A24E9AA49005B255D /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */,
+				C1B8D85FB14C9872BC57A3EE /* Pods_Core.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,14 +167,95 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		A8220E5424E9AA49005B255D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A8220E6A24E9AA62005B255D /* Data Access */,
+				A8220E6D24E9AA62005B255D /* Logic */,
+				A8220E6724E9AA61005B255D /* Utilities */,
+				A8220E5524E9AA49005B255D /* Core.h */,
+				A8220E5624E9AA49005B255D /* Info.plist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A8220E6424E9AA61005B255D /* Property wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				A8220E6124E9AA61005B255D /* Lazy.swift */,
+				A8220E6224E9AA61005B255D /* KeychainItem+PropertyWrapper.swift */,
+				A8220E6324E9AA61005B255D /* UserDefaults+PropertyWrappers.swift */,
+			);
+			path = "Property wrappers";
+			sourceTree = "<group>";
+		};
+		A8220E6724E9AA61005B255D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A8220E6424E9AA61005B255D /* Property wrappers */,
+				A8220E6524E9AA61005B255D /* Component.swift */,
+				A8220E6624E9AA61005B255D /* NetworkClient+Rx.swift */,
+			);
+			name = Utilities;
+			path = Core/../Utilities;
+			sourceTree = "<group>";
+		};
+		A8220E6824E9AA62005B255D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A8220E6924E9AA62005B255D /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A8220E6A24E9AA62005B255D /* Data Access */ = {
+			isa = PBXGroup;
+			children = (
+				A8220E6824E9AA62005B255D /* Network */,
+				A8220E6924E9AA62005B255D /* Persistence */,
+			);
+			name = "Data Access";
+			path = "Core/../Data Access";
+			sourceTree = "<group>";
+		};
+		A8220E6B24E9AA62005B255D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A8220E6C24E9AA62005B255D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8220E6D24E9AA62005B255D /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A8220E6B24E9AA62005B255D /* Services */,
+				A8220E6C24E9AA62005B255D /* Models */,
+			);
+			name = Logic;
+			path = Core/../Logic;
+			sourceTree = "<group>";
+		};
 		A8603A9024E8AA1800A98834 = {
 			isa = PBXGroup;
 			children = (
 				A8603A9B24E8AA1800A98834 /* iOS-skeleton-Matea */,
+				A8220E5424E9AA49005B255D /* Core */,
 				A8603A9A24E8AA1800A98834 /* Products */,
 				CDCD562F2AD40320C839FD59 /* Pods */,
 				3B0A1CD3CB9DA12A94BE521C /* Frameworks */,
-				A88279DA24E9886900777EB8 /* Core.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */,
+				A8220E5324E9AA49005B255D /* Core.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,26 +351,50 @@
 			path = Generated;
 			sourceTree = "<group>";
 		};
-		A88279DB24E9886900777EB8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A88279DF24E9886A00777EB8 /* Core.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CDCD562F2AD40320C839FD59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */,
 				D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */,
+				844D3AFC73FF6D3775232C4D /* Pods-Core.debug.xcconfig */,
+				49E03F3412971FDC02FA170C /* Pods-Core.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A8220E4E24E9AA49005B255D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8220E5724E9AA49005B255D /* Core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		A8220E5224E9AA49005B255D /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8220E6024E9AA49005B255D /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				8F3519EB3D33D67D1DB3F2DF /* [CP] Check Pods Manifest.lock */,
+				A8220E4E24E9AA49005B255D /* Headers */,
+				A8220E4F24E9AA49005B255D /* Sources */,
+				A8220E5024E9AA49005B255D /* Frameworks */,
+				A8220E5124E9AA49005B255D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Core;
+			productName = Core;
+			productReference = A8220E5324E9AA49005B255D /* Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A8603A9824E8AA1800A98834 /* iOS-skeleton-Matea */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8603AAD24E8AA1A00A98834 /* Build configuration list for PBXNativeTarget "iOS-skeleton-Matea" */;
@@ -257,10 +406,12 @@
 				A8603A9624E8AA1800A98834 /* Frameworks */,
 				A8603A9724E8AA1800A98834 /* Resources */,
 				51E1C442D1AC5969826976C0 /* [CP] Embed Pods Frameworks */,
+				A8220E5C24E9AA49005B255D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A8220E5924E9AA49005B255D /* PBXTargetDependency */,
 			);
 			name = "iOS-skeleton-Matea";
 			productName = "iOS-skeleton-Matea";
@@ -277,6 +428,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Matea Andrei";
 				TargetAttributes = {
+					A8220E5224E9AA49005B255D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					A8603A9824E8AA1800A98834 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -293,30 +447,22 @@
 			mainGroup = A8603A9024E8AA1800A98834;
 			productRefGroup = A8603A9A24E8AA1800A98834 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A88279DB24E9886900777EB8 /* Products */;
-					ProjectRef = A88279DA24E9886900777EB8 /* Core.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A8603A9824E8AA1800A98834 /* iOS-skeleton-Matea */,
+				A8220E5224E9AA49005B255D /* Core */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		A88279DF24E9886A00777EB8 /* Core.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Core.framework;
-			remoteRef = A88279DE24E9886A00777EB8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
+		A8220E5124E9AA49005B255D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8603A9724E8AA1800A98834 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +493,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3519EB3D33D67D1DB3F2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A82084DF24E952F2001678B7 /* SwiftGen */ = {
@@ -410,6 +578,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A8220E4F24E9AA49005B255D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8220E6E24E9AB20005B255D /* Component.swift in Sources */,
+				A8220E7124E9AB2A005B255D /* Lazy.swift in Sources */,
+				A8220E7224E9AB83005B255D /* NetworkClient+Rx.swift in Sources */,
+				A8220E6F24E9AB25005B255D /* UserDefaults+PropertyWrappers.swift in Sources */,
+				A8220E7024E9AB28005B255D /* KeychainItem+PropertyWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8603A9524E8AA1800A98834 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +604,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A8220E5924E9AA49005B255D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8220E5224E9AA49005B255D /* Core */;
+			targetProxy = A8220E5824E9AA49005B255D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		A8024F9C24E8B444006C2D74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -436,6 +624,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A8220E5D24E9AA49005B255D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844D3AFC73FF6D3775232C4D /* Pods-Core.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W8PP533FSL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Core/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.Core";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8220E5E24E9AA49005B255D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E03F3412971FDC02FA170C /* Pods-Core.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W8PP533FSL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Core/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-skeleton-Matea.Core";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A8603AAB24E8AA1A00A98834 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -554,6 +798,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-skeleton-Matea/Preview Content\"";
@@ -575,6 +820,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-skeleton-Matea/Preview Content\"";
@@ -595,6 +841,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A8220E6024E9AA49005B255D /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8220E5D24E9AA49005B255D /* Debug */,
+				A8220E5E24E9AA49005B255D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8603A9424E8AA1800A98834 /* Build configuration list for PBXProject "iOS-skeleton-Matea" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
