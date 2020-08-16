@@ -13,6 +13,7 @@
 		A8024FA824E941EB006C2D74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8024FA724E941EB006C2D74 /* Localizable.strings */; };
 		A8024FAD24E94225006C2D74 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8024FAC24E94225006C2D74 /* Colors.xcassets */; };
 		A82084DD24E94E6D001678B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8024FAA24E9421D006C2D74 /* Images.xcassets */; };
+		A8220E4924E9A2E8005B255D /* UIApplication+appVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E4824E9A2E8005B255D /* UIApplication+appVersion.swift */; };
 		A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */; };
 		A88279C224E9651900777EB8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279BF24E9651900777EB8 /* Strings.swift */; };
 		A88279C324E9651900777EB8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279C024E9651900777EB8 /* Assets.swift */; };
@@ -38,6 +39,7 @@
 		A8024FA724E941EB006C2D74 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A8024FAA24E9421D006C2D74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8024FAC24E94225006C2D74 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A8220E4824E9A2E8005B255D /* UIApplication+appVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+appVersion.swift"; sourceTree = "<group>"; };
 		A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-skeleton-Matea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A88279BF24E9651900777EB8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 		A88279BC24E95BB200777EB8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A8220E4824E9A2E8005B255D /* UIApplication+appVersion.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				A82084E324E957A9001678B7 /* SwiftLint */,
 				A8603A9624E8AA1800A98834 /* Frameworks */,
 				A8603A9724E8AA1800A98834 /* Resources */,
+				51E1C442D1AC5969826976C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,6 +332,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		51E1C442D1AC5969826976C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A82084DF24E952F2001678B7 /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +418,7 @@
 				A88279C224E9651900777EB8 /* Strings.swift in Sources */,
 				A8024FA224E8B444006C2D74 /* AppDelegate.swift in Sources */,
 				A88279C324E9651900777EB8 /* Assets.swift in Sources */,
+				A8220E4924E9A2E8005B255D /* UIApplication+appVersion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8220E4324E995A6005B255D /* UserDefaults+PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E4224E995A6005B255D /* UserDefaults+PropertyWrappers.swift */; };
+		A8220E4524E9A273005B255D /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E4424E9A273005B255D /* Component.swift */; };
 		A88279D424E9886900777EB8 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = A88279D224E9886900777EB8 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A88279E924E98BF500777EB8 /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279E824E98BF500777EB8 /* Lazy.swift */; };
 		A88279EB24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279EA24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		A8220E4224E995A6005B255D /* UserDefaults+PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PropertyWrappers.swift"; sourceTree = "<group>"; };
+		A8220E4424E9A273005B255D /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		A88279CF24E9886900777EB8 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88279D224E9886900777EB8 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		A88279D324E9886900777EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A88279E724E98AEF00777EB8 /* Property wrappers */,
+				A8220E4424E9A273005B255D /* Component.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8220E4324E995A6005B255D /* UserDefaults+PropertyWrappers.swift in Sources */,
+				A8220E4524E9A273005B255D /* Component.swift in Sources */,
 				A88279E924E98BF500777EB8 /* Lazy.swift in Sources */,
 				A88279EB24E98DEB00777EB8 /* KeychainItem+PropertyWrapper.swift in Sources */,
 			);

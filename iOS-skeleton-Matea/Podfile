@@ -16,6 +16,14 @@ target 'iOS-skeleton-Matea' do
 
 	pod 'SwiftGen'
   	pod 'SwiftLint'	
+  
+	# RxSwift
+  		pod 'RxSwift'
+  		pod 'RxCocoa'
+  		pod 'RxOptional'
+    
+    	pod 'RestBird'
+    	pod 'Alamofire'
 
   # Use this for client-demo presentation
   # It shows touch feedback while presenting
