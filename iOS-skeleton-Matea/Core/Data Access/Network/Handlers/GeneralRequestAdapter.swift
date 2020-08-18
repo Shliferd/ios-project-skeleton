@@ -8,7 +8,7 @@
 
 import Alamofire
 
-final class GeneralRequestAdapter: RequestAdapter {
+final class GeneralRequestAdapter: RequestInterceptor {
 
     // MARK: - Public properties
 
