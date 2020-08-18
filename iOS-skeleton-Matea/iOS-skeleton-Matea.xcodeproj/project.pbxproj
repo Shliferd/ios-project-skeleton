@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58172A39BD777FE3BE3621C0 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B8D85FB14C9872BC57A3EE /* Pods_Core.framework */; };
-		84750283074BB97AA967499A /* Pods_iOS_skeleton_Matea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */; };
+		00D87393786E573B4A8DCDF1 /* Pods_iOS_skeleton_Matea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5524A90983A702BC3FFE13A4 /* Pods_iOS_skeleton_Matea.framework */; };
 		A8024FA124E8B444006C2D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8024F9C24E8B444006C2D74 /* LaunchScreen.storyboard */; };
 		A8024FA224E8B444006C2D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8024F9E24E8B444006C2D74 /* AppDelegate.swift */; };
 		A8024FA824E941EB006C2D74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8024FA724E941EB006C2D74 /* Localizable.strings */; };
@@ -23,10 +22,23 @@
 		A8220E7024E9AB28005B255D /* KeychainItem+PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6224E9AA61005B255D /* KeychainItem+PropertyWrapper.swift */; };
 		A8220E7124E9AB2A005B255D /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6124E9AA61005B255D /* Lazy.swift */; };
 		A8220E7224E9AB83005B255D /* NetworkClient+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220E6624E9AA61005B255D /* NetworkClient+Rx.swift */; };
+		A83A190C24EBE6670033A7A4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855900C24EBE51B00963523 /* Notifications.swift */; };
+		A83A190E24EBE7070033A7A4 /* APILogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A190D24EBE7070033A7A4 /* APILogHandler.swift */; };
+		A83A191024EBE75F0033A7A4 /* APINoConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A190F24EBE75F0033A7A4 /* APINoConnectionHandler.swift */; };
+		A83A191224EBE79C0033A7A4 /* NetworkStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83A191124EBE79C0033A7A4 /* NetworkStatusManager.swift */; };
+		A855900624EBE12800963523 /* KeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855900524EBE12800963523 /* KeyStore.swift */; };
+		A855900824EBE13500963523 /* LocalStoreageManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855900724EBE13500963523 /* LocalStoreageManagement.swift */; };
+		A855900A24EBE42B00963523 /* APIErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855900924EBE42B00963523 /* APIErrorHandler.swift */; };
+		A855900D24EBE51B00963523 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855900C24EBE51B00963523 /* Notifications.swift */; };
 		A8603AA624E8AA1A00A98834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */; };
 		A88279C224E9651900777EB8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279BF24E9651900777EB8 /* Strings.swift */; };
 		A88279C324E9651900777EB8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279C024E9651900777EB8 /* Assets.swift */; };
 		A88279C424E9651900777EB8 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88279C124E9651900777EB8 /* Storyboards.swift */; };
+		A8C4537A24E9B39700C07C30 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4537924E9B39700C07C30 /* APIConstants.swift */; };
+		A8C4537C24E9B40800C07C30 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4537B24E9B40800C07C30 /* APIError.swift */; };
+		A8C4537E24E9B44B00C07C30 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4537D24E9B44B00C07C30 /* APIConfiguration.swift */; };
+		A8C4538124E9B52A00C07C30 /* GeneralRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4538024E9B52A00C07C30 /* GeneralRequestAdapter.swift */; };
+		C31A958ECD77A6AAF8C6E28A /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB4744CFB80719611AB3397 /* Pods_Core.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +66,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		49E03F3412971FDC02FA170C /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
-		6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_skeleton_Matea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		844D3AFC73FF6D3775232C4D /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
-		A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.debug.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.debug.xcconfig"; sourceTree = "<group>"; };
+		03CF958109BD2A514BDA79FC /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		3EB7A251F43F5B0F51ACDDF0 /* Pods-iOS-skeleton-Matea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.release.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.release.xcconfig"; sourceTree = "<group>"; };
+		5524A90983A702BC3FFE13A4 /* Pods_iOS_skeleton_Matea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_skeleton_Matea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ACADE028616C1AF6788CB7 /* Pods-iOS-skeleton-Matea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.debug.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.debug.xcconfig"; sourceTree = "<group>"; };
+		9BB4744CFB80719611AB3397 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A437BAED56595258B3E2F8DA /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		A8024F9A24E8B444006C2D74 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8024F9D24E8B444006C2D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8024F9E24E8B444006C2D74 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,13 +87,22 @@
 		A8220E6324E9AA61005B255D /* UserDefaults+PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PropertyWrappers.swift"; sourceTree = "<group>"; };
 		A8220E6524E9AA61005B255D /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		A8220E6624E9AA61005B255D /* NetworkClient+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkClient+Rx.swift"; sourceTree = "<group>"; };
+		A83A190D24EBE7070033A7A4 /* APILogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogHandler.swift; sourceTree = "<group>"; };
+		A83A190F24EBE75F0033A7A4 /* APINoConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINoConnectionHandler.swift; sourceTree = "<group>"; };
+		A83A191124EBE79C0033A7A4 /* NetworkStatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusManager.swift; sourceTree = "<group>"; };
+		A855900524EBE12800963523 /* KeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStore.swift; sourceTree = "<group>"; };
+		A855900724EBE13500963523 /* LocalStoreageManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStoreageManagement.swift; sourceTree = "<group>"; };
+		A855900924EBE42B00963523 /* APIErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorHandler.swift; sourceTree = "<group>"; };
+		A855900C24EBE51B00963523 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		A8603A9924E8AA1800A98834 /* iOS-skeleton-Matea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-skeleton-Matea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8603AA524E8AA1A00A98834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A88279BF24E9651900777EB8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A88279C024E9651900777EB8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		A88279C124E9651900777EB8 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		C1B8D85FB14C9872BC57A3EE /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-skeleton-Matea.release.xcconfig"; path = "Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea.release.xcconfig"; sourceTree = "<group>"; };
+		A8C4537924E9B39700C07C30 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		A8C4537B24E9B40800C07C30 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A8C4537D24E9B44B00C07C30 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		A8C4538024E9B52A00C07C30 /* GeneralRequestAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRequestAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58172A39BD777FE3BE3621C0 /* Pods_Core.framework in Frameworks */,
+				C31A958ECD77A6AAF8C6E28A /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,23 +118,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84750283074BB97AA967499A /* Pods_iOS_skeleton_Matea.framework in Frameworks */,
 				A8220E5A24E9AA49005B255D /* Core.framework in Frameworks */,
+				00D87393786E573B4A8DCDF1 /* Pods_iOS_skeleton_Matea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B0A1CD3CB9DA12A94BE521C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6E141526D310C6E5BA80B55D /* Pods_iOS_skeleton_Matea.framework */,
-				C1B8D85FB14C9872BC57A3EE /* Pods_Core.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A8024F9724E8B444006C2D74 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +156,7 @@
 		A8024FA424E940A6006C2D74 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A855900B24EBE50E00963523 /* Constants */,
 				A88279BA24E95B9900777EB8 /* Logic */,
 				A8024FA524E941B9006C2D74 /* User Interface */,
 				A8024F9B24E8B444006C2D74 /* Main */,
@@ -203,6 +218,11 @@
 		A8220E6824E9AA62005B255D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A8C4537F24E9B51600C07C30 /* Handlers */,
+				A8C4537824E9B36800C07C30 /* DTOs */,
+				A8C4537924E9B39700C07C30 /* APIConstants.swift */,
+				A8C4537B24E9B40800C07C30 /* APIError.swift */,
+				A8C4537D24E9B44B00C07C30 /* APIConfiguration.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -210,6 +230,8 @@
 		A8220E6924E9AA62005B255D /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				A855900524EBE12800963523 /* KeyStore.swift */,
+				A855900724EBE13500963523 /* LocalStoreageManagement.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -227,6 +249,7 @@
 		A8220E6B24E9AA62005B255D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A83A191124EBE79C0033A7A4 /* NetworkStatusManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -248,6 +271,14 @@
 			path = Core/../Logic;
 			sourceTree = "<group>";
 		};
+		A855900B24EBE50E00963523 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A855900C24EBE51B00963523 /* Notifications.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		A8603A9024E8AA1800A98834 = {
 			isa = PBXGroup;
 			children = (
@@ -255,7 +286,7 @@
 				A8220E5424E9AA49005B255D /* Core */,
 				A8603A9A24E8AA1800A98834 /* Products */,
 				CDCD562F2AD40320C839FD59 /* Pods */,
-				3B0A1CD3CB9DA12A94BE521C /* Frameworks */,
+				DEE41B4C15061B9877F54113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -351,15 +382,42 @@
 			path = Generated;
 			sourceTree = "<group>";
 		};
+		A8C4537824E9B36800C07C30 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		A8C4537F24E9B51600C07C30 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				A8C4538024E9B52A00C07C30 /* GeneralRequestAdapter.swift */,
+				A855900924EBE42B00963523 /* APIErrorHandler.swift */,
+				A83A190D24EBE7070033A7A4 /* APILogHandler.swift */,
+				A83A190F24EBE75F0033A7A4 /* APINoConnectionHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
 		CDCD562F2AD40320C839FD59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */,
-				D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */,
-				844D3AFC73FF6D3775232C4D /* Pods-Core.debug.xcconfig */,
-				49E03F3412971FDC02FA170C /* Pods-Core.release.xcconfig */,
+				A437BAED56595258B3E2F8DA /* Pods-Core.debug.xcconfig */,
+				03CF958109BD2A514BDA79FC /* Pods-Core.release.xcconfig */,
+				67ACADE028616C1AF6788CB7 /* Pods-iOS-skeleton-Matea.debug.xcconfig */,
+				3EB7A251F43F5B0F51ACDDF0 /* Pods-iOS-skeleton-Matea.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEE41B4C15061B9877F54113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4744CFB80719611AB3397 /* Pods_Core.framework */,
+				5524A90983A702BC3FFE13A4 /* Pods_iOS_skeleton_Matea.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,7 +438,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8220E6024E9AA49005B255D /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
-				8F3519EB3D33D67D1DB3F2DF /* [CP] Check Pods Manifest.lock */,
+				D61097F185646F7A888B37F8 /* [CP] Check Pods Manifest.lock */,
 				A8220E4E24E9AA49005B255D /* Headers */,
 				A8220E4F24E9AA49005B255D /* Sources */,
 				A8220E5024E9AA49005B255D /* Frameworks */,
@@ -399,14 +457,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8603AAD24E8AA1A00A98834 /* Build configuration list for PBXNativeTarget "iOS-skeleton-Matea" */;
 			buildPhases = (
-				BA541FC3E435F9BCE6DAA149 /* [CP] Check Pods Manifest.lock */,
+				54B28E6A01AEE20B99BC7A1A /* [CP] Check Pods Manifest.lock */,
 				A82084DF24E952F2001678B7 /* SwiftGen */,
 				A8603A9524E8AA1800A98834 /* Sources */,
 				A82084E324E957A9001678B7 /* SwiftLint */,
 				A8603A9624E8AA1800A98834 /* Frameworks */,
 				A8603A9724E8AA1800A98834 /* Resources */,
-				51E1C442D1AC5969826976C0 /* [CP] Embed Pods Frameworks */,
 				A8220E5C24E9AA49005B255D /* Embed Frameworks */,
+				FA2FB4B0DD266C3238DBBCCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -478,24 +536,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51E1C442D1AC5969826976C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F3519EB3D33D67D1DB3F2DF /* [CP] Check Pods Manifest.lock */ = {
+		54B28E6A01AEE20B99BC7A1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -510,7 +551,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iOS-skeleton-Matea-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,7 +594,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		BA541FC3E435F9BCE6DAA149 /* [CP] Check Pods Manifest.lock */ = {
+		D61097F185646F7A888B37F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -568,11 +609,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS-skeleton-Matea-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2FB4B0DD266C3238DBBCCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-skeleton-Matea/Pods-iOS-skeleton-Matea-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -583,10 +641,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8220E6E24E9AB20005B255D /* Component.swift in Sources */,
+				A8C4538124E9B52A00C07C30 /* GeneralRequestAdapter.swift in Sources */,
+				A855900A24EBE42B00963523 /* APIErrorHandler.swift in Sources */,
 				A8220E7124E9AB2A005B255D /* Lazy.swift in Sources */,
+				A8C4537A24E9B39700C07C30 /* APIConstants.swift in Sources */,
+				A83A190C24EBE6670033A7A4 /* Notifications.swift in Sources */,
+				A83A191024EBE75F0033A7A4 /* APINoConnectionHandler.swift in Sources */,
+				A83A190E24EBE7070033A7A4 /* APILogHandler.swift in Sources */,
+				A8C4537E24E9B44B00C07C30 /* APIConfiguration.swift in Sources */,
 				A8220E7224E9AB83005B255D /* NetworkClient+Rx.swift in Sources */,
 				A8220E6F24E9AB25005B255D /* UserDefaults+PropertyWrappers.swift in Sources */,
+				A855900824EBE13500963523 /* LocalStoreageManagement.swift in Sources */,
 				A8220E7024E9AB28005B255D /* KeychainItem+PropertyWrapper.swift in Sources */,
+				A8C4537C24E9B40800C07C30 /* APIError.swift in Sources */,
+				A83A191224EBE79C0033A7A4 /* NetworkStatusManager.swift in Sources */,
+				A855900624EBE12800963523 /* KeyStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +665,7 @@
 			files = (
 				A88279C424E9651900777EB8 /* Storyboards.swift in Sources */,
 				A88279C224E9651900777EB8 /* Strings.swift in Sources */,
+				A855900D24EBE51B00963523 /* Notifications.swift in Sources */,
 				A8024FA224E8B444006C2D74 /* AppDelegate.swift in Sources */,
 				A88279C324E9651900777EB8 /* Assets.swift in Sources */,
 				A8220E4924E9A2E8005B255D /* UIApplication+appVersion.swift in Sources */,
@@ -626,7 +696,7 @@
 /* Begin XCBuildConfiguration section */
 		A8220E5D24E9AA49005B255D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 844D3AFC73FF6D3775232C4D /* Pods-Core.debug.xcconfig */;
+			baseConfigurationReference = A437BAED56595258B3E2F8DA /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -654,7 +724,7 @@
 		};
 		A8220E5E24E9AA49005B255D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49E03F3412971FDC02FA170C /* Pods-Core.release.xcconfig */;
+			baseConfigurationReference = 03CF958109BD2A514BDA79FC /* Pods-Core.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -796,7 +866,7 @@
 		};
 		A8603AAE24E8AA1A00A98834 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A5BF8B5F4EA8045592F2AC /* Pods-iOS-skeleton-Matea.debug.xcconfig */;
+			baseConfigurationReference = 67ACADE028616C1AF6788CB7 /* Pods-iOS-skeleton-Matea.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -818,7 +888,7 @@
 		};
 		A8603AAF24E8AA1A00A98834 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D338E905B98355E42B069E02 /* Pods-iOS-skeleton-Matea.release.xcconfig */;
+			baseConfigurationReference = 3EB7A251F43F5B0F51ACDDF0 /* Pods-iOS-skeleton-Matea.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

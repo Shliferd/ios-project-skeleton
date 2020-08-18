@@ -60,7 +60,7 @@ final public class KeychainItem {
     
     // MARK: - Init
     
-    public init(account: String) {
+    public init(_ account: String) {
         self.account = account
     }
     

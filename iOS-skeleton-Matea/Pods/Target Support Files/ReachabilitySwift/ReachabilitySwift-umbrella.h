@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RxOptionalVersionNumber;
-FOUNDATION_EXPORT const unsigned char RxOptionalVersionString[];
+FOUNDATION_EXPORT double ReachabilityVersionNumber;
+FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
 

@@ -1,12 +1,10 @@
 PODS:
   - Alamofire (5.2.2)
+  - ReachabilitySwift (5.0.0)
   - RestBird (0.5.3):
     - Alamofire (~> 5.1)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxOptional (4.1.0):
-    - RxCocoa (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
@@ -15,20 +13,19 @@ PODS:
   - SwiftLint (0.40.0)
 
 DEPENDENCIES:
-  - Alamofire
+  - ReachabilitySwift (~> 5.0)
   - RestBird
-  - RxCocoa
-  - RxOptional
-  - RxSwift
+  - RxCocoa (~> 5.0)
+  - RxSwift (~> 5.0)
   - SwiftGen
   - SwiftLint
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - ReachabilitySwift
     - RestBird
     - RxCocoa
-    - RxOptional
     - RxRelay
     - RxSwift
     - SwiftGen
@@ -36,14 +33,14 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   RestBird: 2aa8a96b2f789e3463146ee18153ed20ddab821d
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftGen: 3d5024a47ea79e408cded20763d7a17d18a4548c
   SwiftLint: 4154893c73a4c52d6240195507eb7a3e3c64087e
 
-PODFILE CHECKSUM: 355ae28b1d5bce4274204cb9dba07c425af7edb9
+PODFILE CHECKSUM: ca28d35518c74ae6aca38179139605a5f56783a3
 
 COCOAPODS: 1.9.3

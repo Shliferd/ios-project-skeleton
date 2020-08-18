@@ -5,8 +5,28 @@ unless using_bundler
   exit(1)
 end
 
+platform :ios, '12.0'
+
+use_frameworks!
+inhibit_all_warnings!
+
 source 'https://cdn.cocoapods.org/'
-platform :ios, '11.0'
+
+workspace 'iOS-skeleton-Matea'
+
+#install! 'cocoapods',
+#:generate_multiple_pod_projects => true,
+#:incremental_installation => true
+
+def pod_communication
+  pod 'RxCocoa', '~> 5.0'
+  pod 'RxSwift', '~> 5.0'
+end
+
+def pod_networking
+  pod 'RestBird'
+  pod 'ReachabilitySwift', '~> 5.0'
+end
 
 target 'iOS-skeleton-Matea' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -18,16 +38,13 @@ target 'iOS-skeleton-Matea' do
   	pod 'SwiftLint'	
   
 	# RxSwift
-  		pod 'RxSwift'
-  		pod 'RxCocoa'
-  		pod 'RxOptional'
+  	
+	pod_communication
 
 	target 'Core' do
 		inherit! :search_paths
-		use_frameworks!
     		
-		pod 'RestBird'    		
-		pod 'Alamofire'
+		pod_networking	
 	end
 
   # Use this for client-demo presentation
